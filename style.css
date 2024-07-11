@@ -1,0 +1,36 @@
+*{margin: 0;
+padding: 0;}
+.container{margin:auto ;
+max-width: 1440px;
+}
+.card-area-start{background-color: brown;}
+
+
+
+.box{background-color: aqua;
+
+padding: 50PX 0 50PX 0;
+border-radius: 100px;}
+.card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.box img{
+    width: 333px;
+    height: 400px;
+}
+@media screen  and (max-width:1024) {.card{grid-tempie-colums: repeat(6, 1fr);}
+    
+}
+@media screen  and (max-width:912) {.card{grid-tempie-colums: repeat(3, 1fr);}
+    
+}
+@media screen  and (max-width:612) {.card{grid-tempie-colums: repeat(2, 1fr);}
+    
+}
+
+
+
+
+
